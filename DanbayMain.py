@@ -440,10 +440,10 @@ def TwometerWriteExcel(rowIndex,colIndex,cellValue,userStyle=1):
 
 def dbOperation(sql,db='danbay_device'):
     conn = MySQLdb.connect(
-        host='rm-wz916f30z77a773rdo.mysql.rds.aliyuncs.com',
-        port=3306,
-        user='danbay_read',
-        passwd='LoveDanbayNow@',
+        host='rm-wz916f3xxxxxxxxxxxxxxxmysql.rds.aliyuncs.com',
+        port=33xxxxx06,
+        user='daxxxxxxnbayxxffggd',
+        passwd='LoveDXXXXXXXXXow@',
         db=db,
         charset="utf8"
     )
@@ -527,7 +527,7 @@ def getHouseID(devuiceID):
     return houseID[0]
 def getCookies(username,password):
     loginurl = 'http://www.danbay.cn/system/goLoginning'
-    # payload = {'mc_username': 'admin', 'mc_password': 'Danbay@20171214!', 'rememberMe': ""}
+    
     payload = {'mc_username': username, 'mc_password':password, 'rememberMe': ""}
     r = requests.post(loginurl, data=payload)
     return r.cookies

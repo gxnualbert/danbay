@@ -2815,8 +2815,8 @@ if __name__ == '__main__':
     print "Start Time: %s" % starttime
 
     config = getConf()
-    config["username"] = "admin"
-    config["password"] = "admin$1379@"
+    config["username"] = "idjjd"
+    config["password"] = "dknjghsd@"
 
     print u"过滤地址为：", config["address"][0].decode("utf-8")
     if config["option"] == str(1):
